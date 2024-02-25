@@ -1,6 +1,78 @@
-installing git in UBUNTU
+Skip to content
+mreddybalaji
+/
+vsdsquadron_log
 
-sudo apt-get install git
+Type / to search
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Breadcrumbsvsdsquadron_log
+/README.md
+Go to file
+t
+Latest commit
+mreddybalaji
+mreddybalaji
+README.md
+c9ae026
+ · 
+2 days ago
+History
+File metadata and controls
+
+Preview
+
+Code
+
+Blame
+53 lines (20 loc) · 941 Bytes
+# vsdsquadron_log
+This repository contains all the resources for the VSDSquadron Research Internship 
+
+Installing GIT
+![image](https://github.com/mreddybalaji/vsdsquadron_log/assets/130784457/151468d5-0788-4d13-b595-d1f19007e6d9)
 
 
-https://github.com/mreddybalaji/vsdsquadron_log/blob/main/IMG-20240223-WA0032.jpg?raw=true
+
+YOSYS
+
+sudo apt-get update
+sudo apt-get install yosys
+
+![image](https://github.com/mreddybalaji/vsdsquadron_log/assets/130784457/f0b62f32-9d06-41d4-9f86-1b732e4a2523)
+
+
+
+GRAYWOLF
+
+sudo apt-get update
+sudo apt-get -y install graywolf
+
+![image](https://github.com/mreddybalaji/vsdsquadron_log/assets/130784457/0e4e38b7-e973-4a75-a183-f414468322ab)
+
+
+
+QROUTER 
+
+sudo apt-get update 
+sudo apt-get -y install qrouter
+
+![image](https://github.com/mreddybalaji/vsdsquadron_log/assets/130784457/3789067b-d836-4396-a941-57a63da3964b)
+
+
+
+MAGIC 
+
+sudo apt-get update
+sudo apt-get install magic
+
+![image](https://github.com/mreddybalaji/vsdsquadron_log/assets/130784457/c060c358-d692-4751-964b-fe2479945f2b)
+vsdsquadron_log/README.md at main · mreddybalaji/vsdsquadron_log 
