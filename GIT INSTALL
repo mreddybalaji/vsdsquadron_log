@@ -1,47 +1,3 @@
-Skip to content
-mreddybalaji
-/
-vsdsquadron_log
-
-Type / to search
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-Breadcrumbsvsdsquadron_log
-/README.md
-Go to file
-t
-Latest commit
-mreddybalaji
-mreddybalaji
-README.md
-c9ae026
- · 
-2 days ago
-History
-File metadata and controls
-
-Preview
-
-Code
-
-Blame
-53 lines (20 loc) · 941 Bytes
-# vsdsquadron_log
-This repository contains all the resources for the VSDSquadron Research Internship 
-
-Installing GIT
-![image](https://github.com/mreddybalaji/vsdsquadron_log/assets/130784457/151468d5-0788-4d13-b595-d1f19007e6d9)
-
-
-
 YOSYS
 
 sudo apt-get update
@@ -75,4 +31,3 @@ sudo apt-get update
 sudo apt-get install magic
 
 ![image](https://github.com/mreddybalaji/vsdsquadron_log/assets/130784457/c060c358-d692-4751-964b-fe2479945f2b)
-vsdsquadron_log/README.md at main · mreddybalaji/vsdsquadron_log 
