@@ -116,4 +116,82 @@ cd magic
 ./configure
 make
 make install
+```
+
+
+
+
+
+
+## Task - 2: RISC V Instruction Set:
+
+
+## RISC-V Assembly Instructions Overview
+
+
+
+### Instruction 1: Add
+- **Type**: R-TYPE ARITHMETIC
+- **Specification**: Performs addition on `r4` and `r3`, result in `r2`.
+- **Encoding**: `0000000|r3|r4|000|r2|0110011`
+
+### Instruction 2: Sub
+- **Type**: R-TYPE ARITHMETIC
+- **Specification**: Subtracts `r3` from `r4`, result in `r5`.
+- **Encoding**: `0100000|r4|r3|000|r5|0110011`
+
+### Instruction 3: And
+- **Type**: R-TYPE LOGICAL
+- **Specification**: Bitwise AND `r2` and `r4`, result in `r6`.
+- **Encoding**: `0000000|r4|r2|111|r6|0110011`
+
+### Instruction 4: Or
+- **Type**: R-TYPE LOGICAL
+- **Specification**: Bitwise OR `r3` and `r6`, result in `r1`.
+- **Encoding**: `0000000|r6|r3|110|r1|0110011`
+
+### Instruction 5: Xor
+- **Type**: R-TYPE LOGICAL
+- **Specification**: Bitwise XOR `r2` and `r5`, result in `r7`.
+- **Encoding**: `0000000|r5|r2|100|r7|0110011`
+
+### Instruction 6: Slt
+- **Type**: R-TYPE LOGICAL
+- **Specification**: Set `r8` to 1 if `r3` < `r5`, else 0.
+- **Encoding**: `0000000|r5|r3|111|r8|0110011`
+
+### Instruction 7: Addi
+- **Type**: I-Type
+- **Specification**: Adds immediate 10 to `r5`, result in `r9`.
+- **Encoding**: `00000001010|r5|000|r9|0010011`
+
+### Instruction 8: Sw
+- **Type**: S-TYPE
+- **Specification**: Store `r4` into memory at `r2` + offset 4.
+- **Encoding**: `0000000|r4|r2|010|00100|0100011`
+
+### Instruction 9: Lw
+- **Type**: I-Type
+- **Specification**: Load 32-bit value into `r10` from memory at `r2` + offset 4.
+- **Encoding**: `000000000100|r2|010|r10|0000011`
+
+### Instruction 10: Beq
+- **Type**: B-TYPE
+- **Specification**: Branch if `r1` equals `r1`.
+- **Encoding**: `imm[12|10:5]|r1|r1|000|imm[4:1|11]|1100011`
+
+### Instruction 11: Bne
+- **Type**: B-TYPE
+- **Specification**: Branch if `r1` not equals `r2`.
+- **Encoding**: `imm[12|10:5]|r1|r2|001|imm[4:1|11]|1100011`
+
+### Instruction 12: Sll
+- **Type**: R-TYPE
+- **Specification**: Shift left logical `r2` by `r3` (3 bits).
+- **Encoding**: `0000000|r2|r3|001|r11|0110011`
+
+### Instruction 13: Srl
+- **Type**: R-TYPE
+- **Specification**: Shift right logical `r5` by `r3` (3 bits).
+- **Encoding**: `0000000|r5|r3|101|r12|0110011`
 
