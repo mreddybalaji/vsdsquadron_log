@@ -40,11 +40,24 @@ sudo apt install gtkwave
 
 ```
 
+![image](https://github.com/mreddybalaji/vsdsquadron_log/assets/130784457/af9ae1d4-9fa1-4b84-aae6-e26560c5fd0b)
+
+
+
 
 ## OpenSTA Installation:
 
 ```bash
-git clone https://github.com/The-OpenROAD-Project/OpenSTA
+git clone https://github.com/The-OpenROAD-Project/OpenSTA.git
+cd OpenSTA
+mkdir build
+cd build
+cmake ..
+make
+
+
+![image](https://github.com/mreddybalaji/vsdsquadron_log/assets/130784457/892ae43e-9dae-4f22-ba72-6dd7950d6d96)
+
 
 ```
 
@@ -60,6 +73,11 @@ make
 sudo make install
 
 ```
+
+
+![image](https://github.com/mreddybalaji/vsdsquadron_log/assets/130784457/f0834d2f-fff4-43d7-8f8f-77671f1c7eec)
+
+
 
 
 
@@ -81,6 +99,11 @@ sudo reboot
 docker run hello-world
 
 ```
+
+
+![image](https://github.com/mreddybalaji/vsdsquadron_log/assets/130784457/1ed49529-54dd-4538-88bb-f96a3c86fc8e)
+
+
 
 
 ## Magic Installation:
