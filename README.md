@@ -23,5 +23,7 @@ make config-gcc
 make
 
 sudo make install
+![Screenshot from 2024-03-05 15-28-44](https://github.com/mreddybalaji/vsdsquadron_log/assets/130784457/6df8e52e-39df-4bb9-8f07-7cd01b454a1a)
+
 
 
