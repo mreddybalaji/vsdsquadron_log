@@ -54,12 +54,13 @@ mkdir build
 cd build
 cmake ..
 make
+```
 
 
 ![image](https://github.com/mreddybalaji/vsdsquadron_log/assets/130784457/892ae43e-9dae-4f22-ba72-6dd7950d6d96)
 
 
-```
+
 
 ## ngspice Installation:
 
