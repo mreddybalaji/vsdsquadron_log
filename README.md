@@ -8,6 +8,8 @@ This repository contains all the resources and tasks for the VSDSquadron Researc
 
 ## Task - 1: Tools Installation
 
+yosys:
+
 git clone https://github.com/YosysHQ/yosys.git
 
 cd yosys
